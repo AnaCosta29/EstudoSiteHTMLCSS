@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Merienda', cursive;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/*cabecalho*/
+header#cabecalho {
+
+    width: 100%;
+    float: left;
+    padding: 10px 8%;
+    background-color: #606060;
+}
+
+/*logo*/
+header#cabecalho h1 {
+    width: 268px;
+    height: 137px;
+    float: left;
+    background: url("../imagens/toplogo.png") no-repeat;
+    font-size: 0;
+
+}
+
+header#cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+header#cabecalho input[type="text"] {
+
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+header#cabecalho button {
+
+    width: 15%;
+    float: left;
+    padding: 15px 10px;
+    background-color: #f0f0f0;
+    color: #606060;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+nav#menu {
+
+    width: 100%;
+    float: left;
+    padding: 14px 8%;
+    background-color: #FFD700;
+}
+
+nav#menu li {
+
+    float: left;
+
+}
+
+nav#menu li a {
+    color: #606060;
+    margin-right: 25px;
+    text-decoration: none;
+
+}
+
+nav#menu li a:hover {
+    color: chocolate;
+}
+
+div#social-icons {
+    float: right;
+}
+
+div#social-icons a {
+    color: #606060;
+    float: left;
+    margin-left: 12px;
+
+}
+.btn-facebook:hover{
+    color: #3B5998;
+}
+
+div#social-icons btn-twitter:hover{
+    color: #54A4D6;
+}
+
+/* PRINCIPAL*/
+main#principal {
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+article#sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
